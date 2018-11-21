@@ -6,18 +6,13 @@ const prefix = "#"
 const code = '#'
 
 client.on('ready', () => {
-	client.user.setGame(`SuperCodes.`,'https://www.twitch.tv/fofodiscord');
+	client.user.setGame(`Mal Codes.`,'https://www.twitch.tv/fofodiscord');
   console.log(`Logged in as [ ${client.user.tag}! ]`);
 
 });
 
 
-client.on("ready", () => {
-  function lol() {
-    client.guilds.get('501708070460850176').roles.find("name", "Rainbow").setColor("RANDOM");
-  }
-  setInterval(lol, 6000);
-})
+
 
 client.on('message',async message => {
     if(message.content.startsWith(prefix + "js")) {
@@ -1111,7 +1106,7 @@ client.on('message', async message =>{
   
 
 
-_─══════ {✯SuperCodes✯} ══════─_
+_─══════ {✯Mal,Codes✯} ══════─_
 
 __الاوامرالخاصة__:spy::skin-tone-1: 
 
@@ -1350,7 +1345,7 @@ if(message.content ===  prefix + "help"){
 .addField(" **❧#help1 ➺      ⦁قائمة الاكواد ⦁  **",' ‎ ')
 .addField("**❧#help2 ➺      ⦁ أوامر عامة ⦁** ",' ‎ ')
 .addField("**❧#help3 ➺      ⦁ أوامر الأدارة + السبورت ⦁**",' ‎ ')
- .addField("─══════ {✯**SuperCodes**✯} ══════─",' ‎ ')
+ .addField("─══════ {✯**Mal,Codes**✯} ══════─",' ‎ ')
 
 .setFooter('SuperCodes')
 
@@ -1405,7 +1400,7 @@ if (message.content  === prefix + "help-js") {
  .addField("❧  **#help-js-welcome   ➺      ⦁ قسم أكواد الترحيب** ⦁",' ‎ ')
 	  .addField("❧  **#help-js-help      ➺      ⦁ قسم أكواد الهلب** ⦁",' ‎ ')
 			.addField("❧  **#help-js-bc        ➺      ⦁ قسم أكواد البرودكاست** ⦁",' ‎ ')
-.setFooter('SuperCodes')
+.setFooter('Mal Codes')
 
 
 message.channel.send({embed});
@@ -1430,7 +1425,7 @@ if (message.content  === prefix + "help-js-source") {
 .addField("**#help-js-source-3  ➺      ⦁ السورس الأساسي مع الستريمنق ومعلومات البوت** ⦁",' ‎ ')
  .addField("**#help-js-source-4  ➺      ⦁ السورس الأساسي مع الستريمنق ومعلومات البوت** ⦁",' ‎ ')
 
-.setFooter('SuperCodes')
+.setFooter('MalCodes')
 
 
 message.channel.send({embed});
@@ -1559,7 +1554,7 @@ if (message.content  === prefix + "help-js-admin") {
 
 
 
-.setFooter('SuperCodes')
+.setFooter('MalCodes')
 
 
 message.channel.send({embed});
@@ -1750,7 +1745,7 @@ if (message.content  === prefix + "help-js-general") {
 .addField("**#help-js-general-7  ➺      ⦁ كود صراحه** ⦁",' ‎ ')	  
 
 
-.setFooter('SuperCodes')
+.setFooter('MalCodes')
 
 message.channel.send({embed});
 
@@ -1930,7 +1925,7 @@ if (message.content  === prefix + "help-js-welcome") {
 
 
 	 
-.setFooter('SuperCodes')
+.setFooter('MalCodes')
 
 
 message.channel.send({embed});
@@ -2019,7 +2014,7 @@ if (message.content  === prefix + "help-js-help") {
 .addField("**#help-js-help-1  ➺      ⦁ كود هلب مع امبد يرسل بنفس الشات **⦁",' ‎ ')
 .addField("**#help-js-help-2  ➺      ⦁ كود هلب مزخرف بدون امبد ويرسل عالخاص ** ⦁",' ‎ ')
 	 
-.setFooter('SuperCodes')
+.setFooter('MalCodes')
 
 
 message.channel.send({embed});
@@ -2089,7 +2084,7 @@ if (message.content  === prefix + "help-js-bc") {
 .addField("**#help-js-bc-3  ➺      ⦁ برودكاست + للأونلاين + مع منشن + غير مطور **⦁",' ‎ ')
 .addField("**#help-js-bc-4  ➺      ⦁ برودكاست + للكل + مع منشن + غير مطور ** ⦁",' ‎ ')	   
 	 
-.setFooter('SuperCodes')
+.setFooter('MalCodes')
 
 
 message.channel.send({embed});
