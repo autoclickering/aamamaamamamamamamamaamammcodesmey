@@ -1347,7 +1347,7 @@ if(message.content ===  prefix + "help"){
 .addField("**❧#help3 ➺      ⦁ أوامر الأدارة + السبورت ⦁**",' ‎ ')
  .addField("─══════ {✯**Mal,Codes**✯} ══════─",' ‎ ')
 
-.setFooter('SuperCodes')
+.setFooter('MalCodes')
 
 
 message.channel.send({embed});
@@ -1373,7 +1373,7 @@ if (message.content  === prefix + "help1") {
 .addField("❧  **#help-eris  ➺    ⦁ قائمة أكواد الإرس** ⦁",' ‎ ')
  .addField("❧  **#help-io  ➺      ⦁ قائمة أكواد الآي أو** ⦁",' ‎ ')
 
-.setFooter('SuperCodes')
+.setFooter('MalCodes')
 
 
 message.channel.send({embed});
