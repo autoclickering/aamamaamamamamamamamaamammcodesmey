@@ -6,7 +6,7 @@ const prefix = "#"
 const code = '#'
 
 client.on('ready', () => {
-	client.user.setGame(`Mal Codes.#help`,'https://www.twitch.tv/idk');
+	client.user.setGame(`All Codes  Type #help`,'https://www.twitch.tv/idk');
   console.log(`Logged in as [ ${client.user.tag}! ]`);
 
 });
@@ -1343,8 +1343,8 @@ if(message.content ===  prefix + "help"){
 
 .addField("─══════ {✯**Choose**✯} ══════─",' ‎ ')
 .addField(" **❧#help1 ➺      ⦁قائمة الاكواد ⦁  **",' ‎ ')
-.addField("**❧#help2 ➺      ⦁ أوامر عامة ⦁** ",' ‎ ')
-.addField("**❧#help3 ➺      ⦁ أوامر الأدارة + السبورت ⦁**",' ‎ ')
+.addField("**❧#help2 ➺      ⦁ قريباَََ ⦁:stopwatch:** ",' ‎ ')
+.addField("**❧#help3 ➺      ⦁ قريباَََ ⦁:stopwatch: **",' ‎ ')
  .addField("─══════ {✯**Mal,Codes**✯} ══════─",' ‎ ')
 
 .setFooter('MalCodes')
@@ -1368,10 +1368,10 @@ if (message.content  === prefix + "help1") {
 .setTimestamp()
 
 .addField("⦁`All types of codes in Mal Codes Server 💬`⦁",' ‎ ')
-.addField("❧  **#help-js  ➺      ⦁ قائمة أكواد الجافا سكربت**  ⦁",' ‎ ')
-.addField("❧  **#help-py  ➺      ⦁ قائمة أكواد البايثون**  ⦁",' ‎ ')
-.addField("❧  **#help-eris  ➺    ⦁ قائمة أكواد الإرس** ⦁",' ‎ ')
- .addField("❧  **#help-io  ➺      ⦁ قائمة أكواد الآي أو** ⦁",' ‎ ')
+.addField("❧  **#help-js  ➺      ⦁ قائمة أكواد الجافا سكربت**:hugging:⦁",' ‎ ')
+.addField("❧  **#help-py  ➺      ⦁ قائمة أكواد البايثون**:hugging:⦁",' ‎ ')
+.addField("❧  **#help-eris  ➺    ⦁ قائمة أكواد الإرس**:hugging:⦁",' ‎ ')
+ .addField("❧  **#help-io  ➺      ⦁ قائمة أكواد الآي أو**:hugging:⦁",' ‎ ')
 
 .setFooter('MalCodes')
 
@@ -1394,12 +1394,12 @@ if (message.content  === prefix + "help-js") {
 .setTimestamp()
 
 .addField("⦁`All types of codes in MalCodes Server 💬`⦁",' ‎ ')
-.addField("❧  **#help-js-source    ➺      ⦁ قسم السورس الأساسي** ⦁",' ‎ ')
-.addField("❧  **#help-js-admin     ➺      ⦁ قسم الأكواد الإدارية** ⦁",' ‎ ')
-.addField("❧  **#help-js-general   ➺      ⦁ قسم الأكواد العامة*** ⦁",' ‎ ')
- .addField("❧  **#help-js-welcome   ➺      ⦁ قسم أكواد الترحيب** ⦁",' ‎ ')
-	  .addField("❧  **#help-js-help      ➺      ⦁ قسم أكواد الهلب** ⦁",' ‎ ')
-			.addField("❧  **#help-js-bc        ➺      ⦁ قسم أكواد البرودكاست** ⦁",' ‎ ')
+.addField("❧  **#help-js-source    ➺      ⦁ قسم السورس الأساسي**:top:⦁",' ‎ ')
+.addField("❧  **#help-js-admin     ➺      ⦁ قسم الأكواد الإدارية**:top:⦁",' ‎ ')
+.addField("❧  **#help-js-general   ➺      ⦁ قسم الأكواد العامة***:top:⦁",' ‎ ')
+ .addField("❧  **#help-js-welcome   ➺      ⦁ قسم أكواد الترحيب**:top:⦁",' ‎ ')
+	  .addField("❧  **#help-js-help      ➺      ⦁ قسم أكواد الهلب**:top:⦁",' ‎ ')
+			.addField("❧  **#help-js-bc        ➺      ⦁ قسم أكواد البرودكاست**:top:⦁",' ‎ ')
 .setFooter('Mal Codes')
 
 
@@ -1439,7 +1439,7 @@ message.channel.send({embed});
 client.on('message', message => {
 if (message.author.bot) return;
 if (message.content === prefix + "help-js-source-1") {
-   message.channel.send('**لقد تم ارسال الكود في الخاص :ok_hand: **');
+   message.channel.send('**لقد تم ارسال الكود في الخاص :ballot_box_with_check:**');
 	  
 
    
@@ -1472,7 +1472,7 @@ message.delete();
 client.on('message', message => {
 if (message.author.bot) return;
 if (message.content === prefix + "help-js-source-2") {
-   message.channel.send('**لقد تم ارسال الكود في الخاص :ok_hand: **');
+   message.channel.send('**لقد تم ارسال الكود في الخاص :ballot_box_with_check: **');
 	  
 
    
@@ -1494,7 +1494,7 @@ https://hastebin.com/idotifusid.coffeescript
 client.on('message', message => {
 if (message.author.bot) return;
 if (message.content === prefix + "help-js-source-3") {
-   message.channel.send('**لقد تم ارسال الكود في الخاص :ok_hand: **');
+   message.channel.send('**لقد تم ارسال الكود في الخاص :ballot_box_with_check: **');
 	  
 
    
@@ -1514,7 +1514,7 @@ https://hastebin.com/jivizupafi.coffeescript
   client.on('message', message => {
 if (message.author.bot) return;
 if (message.content === prefix + "help-js-source-4") {
-   message.channel.send('**لقد تم ارسال الكود في الخاص :ok_hand: **');
+   message.channel.send('**لقد تم ارسال الكود في الخاص :ballot_box_with_check: **');
 	  
 
    
@@ -1568,7 +1568,7 @@ message.channel.send({embed});
 	client.on('message', message => {
 if (message.author.bot) return;
 if (message.content === prefix + "help-js-admin-1") {
-   message.channel.send('**لقد تم ارسال الكود في الخاص :ok_hand: **');
+   message.channel.send('**لقد تم ارسال الكود في الخاص :ballot_box_with_check: **');
 	  
 
    
@@ -1589,7 +1589,7 @@ https://hastebin.com/hahujuwexa.php
 	  client.on('message', message => {
 if (message.author.bot) return;
 if (message.content === prefix + "help-js-admin-2") {
-   message.channel.send('**لقد تم ارسال الكود في الخاص :ok_hand: **');
+   message.channel.send('**لقد تم ارسال الكود في الخاص :ballot_box_with_check: **');
 	  
 
    
@@ -1609,7 +1609,7 @@ https://hastebin.com/bowivopose.php
 		client.on('message', message => {
 if (message.author.bot) return;
 if (message.content === prefix + "help-js-admin-3") {
-   message.channel.send('**لقد تم ارسال الكود في الخاص :ok_hand: **');
+   message.channel.send('**لقد تم ارسال الكود في الخاص :ballot_box_with_check: **');
 	  
 
    
@@ -1631,7 +1631,7 @@ https://hastebin.com/iwororamam.coffeescript
 		  client.on('message', message => {
 if (message.author.bot) return;
 if (message.content === prefix + "help-js-admin-4") {
-   message.channel.send('**لقد تم ارسال الكود في الخاص :ok_hand: **');
+   message.channel.send('**لقد تم ارسال الكود في الخاص :ballot_box_with_check: **');
 	  
 
    
@@ -1650,7 +1650,7 @@ https://hastebin.com/etugawomeh.coffeescript
 			client.on('message', message => {
 if (message.author.bot) return;
 if (message.content === prefix + "help-js-admin-5") {
-   message.channel.send('**لقد تم ارسال الكود في الخاص :ok_hand: **');
+   message.channel.send('**لقد تم ارسال الكود في الخاص :ballot_box_with_check: **');
 	  
 
    
@@ -1668,7 +1668,7 @@ https://pastebin.com/Xe5kzVUw
    client.on('message', message => {
 if (message.author.bot) return;
 if (message.content === prefix + "help-js-admin-6") {
-   message.channel.send('**لقد تم ارسال الكود في الخاص :ok_hand: **');
+   message.channel.send('**لقد تم ارسال الكود في الخاص :ballot_box_with_check: **');
 	  
 
    
@@ -1686,7 +1686,7 @@ https://pastebin.com/ChtbaGu2
 	 client.on('message', message => {
 if (message.author.bot) return;
 if (message.content === prefix + "help-js-admin-7") {
-   message.channel.send('**لقد تم ارسال الكود في الخاص :ok_hand: **');
+   message.channel.send('**لقد تم ارسال الكود في الخاص :ballot_box_with_check: **');
 	  
 
    
@@ -1706,7 +1706,7 @@ https://pastebin.com/Y2SWEE6N
 	client.on('message', message => {
 if (message.author.bot) return;
 if (message.content === prefix + "help-js-admin-8") {
-   message.channel.send('**لقد تم ارسال الكود في الخاص :ok_hand: **');
+   message.channel.send('**لقد تم ارسال الكود في الخاص :ballot_box_with_check: **');
 	  
 
    
@@ -1761,7 +1761,7 @@ message.channel.send({embed});
 			client.on('message', message => {
 if (message.author.bot) return;
 if (message.content === prefix + "help-js-general-1") {
-   message.channel.send('**لقد تم ارسال الكود في الخاص :ok_hand: **');
+   message.channel.send('**لقد تم ارسال الكود في الخاص :ballot_box_with_check: **');
 	  
 
    
@@ -1782,7 +1782,7 @@ https://hastebin.com/udehosayej.coffeescript
 				  client.on('message', message => {
 if (message.author.bot) return;
 if (message.content === prefix + "help-js-general-2") {
-   message.channel.send('**لقد تم ارسال الكود في الخاص :ok_hand: **');
+   message.channel.send('**لقد تم ارسال الكود في الخاص :ballot_box_with_check: **');
 	  
 
    
@@ -1804,7 +1804,7 @@ https://hastebin.com/qunobubuji.js
 			  client.on('message', message => {
 if (message.author.bot) return;
 if (message.content === prefix + "help-js-general-3") {
-   message.channel.send('**لقد تم ارسال الكود في الخاص :ok_hand: **');
+   message.channel.send('**لقد تم ارسال الكود في الخاص :ballot_box_with_check: **');
 	  
 
    
@@ -1826,7 +1826,7 @@ https://hastebin.com/wopigecazo.js
 				client.on('message', message => {
 if (message.author.bot) return;
 if (message.content === prefix + "help-js-general-4") {
-   message.channel.send('**لقد تم ارسال الكود في الخاص :ok_hand: **');
+   message.channel.send('**لقد تم ارسال الكود في الخاص :ballot_box_with_check: **');
 	  
 
    
@@ -1849,7 +1849,7 @@ https://hastebin.com/xajaregari.js
 			  client.on('message', message => {
 if (message.author.bot) return;
 if (message.content === prefix + "help-js-general-5") {
-   message.channel.send('**لقد تم ارسال الكود في الخاص :ok_hand: **');
+   message.channel.send('**لقد تم ارسال الكود في الخاص :ballot_box_with_check: **');
 	  
 
    
@@ -1868,7 +1868,7 @@ https://hastebin.com/vitodewesa.js
 		  client.on('message', message => {
 if (message.author.bot) return;
 if (message.content === prefix + "help-js-general-6") {
-   message.channel.send('**لقد تم ارسال الكود في الخاص :ok_hand: **');
+   message.channel.send('**لقد تم ارسال الكود في الخاص :ballot_box_with_check: **');
 	  
 
    
@@ -1889,7 +1889,7 @@ https://pastebin.com/fak2SQsm
 			  client.on('message', message => {
 if (message.author.bot) return;
 if (message.content === prefix + "help-js-general-7") {
-   message.channel.send('**لقد تم ارسال الكود في الخاص :ok_hand: **');
+   message.channel.send('**لقد تم ارسال الكود في الخاص :ballot_box_with_check: **');
 	  
 
    
@@ -1939,7 +1939,7 @@ message.channel.send({embed});
 				client.on('message', message => {
 if (message.author.bot) return;
 if (message.content === prefix + "help-js-welcome-1") {
-   message.channel.send('**لقد تم ارسال الكود في الخاص :ok_hand: **');
+   message.channel.send('**لقد تم ارسال الكود في الخاص :ballot_box_with_check: **');
 	  
 
    
@@ -1960,7 +1960,7 @@ https://hastebin.com/zapuyexive.js
 				  client.on('message', message => {
 if (message.author.bot) return;
 if (message.content === prefix + "help-js-welcome-2") {
-   message.channel.send('**لقد تم ارسال الكود في الخاص :ok_hand: **');
+   message.channel.send('**لقد تم ارسال الكود في الخاص :ballot_box_with_check: **');
 	  
 
    
@@ -1981,7 +1981,7 @@ https://hastebin.com/tujehubuqo.php
 				client.on('message', message => {
 if (message.author.bot) return;
 if (message.content === prefix + "help-js-welcome-3") {
-   message.channel.send('**لقد تم ارسال الكود في الخاص :ok_hand: **');
+   message.channel.send('**لقد تم ارسال الكود في الخاص :ballot_box_with_check: **');
 	  
 
    
@@ -2028,7 +2028,7 @@ message.channel.send({embed});
 				  client.on('message', message => {
 if (message.author.bot) return;
 if (message.content === prefix + "help-js-help-1") {
-   message.channel.send('**لقد تم ارسال الكود في الخاص :ok_hand: **');
+   message.channel.send('**لقد تم ارسال الكود في الخاص :ballot_box_with_check: **');
 	  
 
    
@@ -2048,7 +2048,7 @@ https://hastebin.com/cikeyoguqa.cs
 					client.on('message', message => {
 if (message.author.bot) return;
 if (message.content === prefix + "help-js-help-2") {
-   message.channel.send('**لقد تم ارسال الكود في الخاص :ok_hand: **');
+   message.channel.send('**لقد تم ارسال الكود في الخاص :ballot_box_with_check: **');
 	  
 
    
@@ -2104,7 +2104,7 @@ message.channel.send({embed});
 						client.on('message', message => {
 if (message.author.bot) return;
 if (message.content === prefix + "help-js-bc-1") {
-   message.channel.send('**لقد تم ارسال الكود في الخاص :ok_hand: **');
+   message.channel.send('**لقد تم ارسال الكود في الخاص :ballot_box_with_check: **');
 	  
 
    
@@ -2124,7 +2124,7 @@ https://hastebin.com/bipanureqa.js
 					  client.on('message', message => {
 if (message.author.bot) return;
 if (message.content === prefix + "help-js-bc-2") {
-   message.channel.send('**لقد تم ارسال الكود في الخاص :ok_hand: **');
+   message.channel.send('**لقد تم ارسال الكود في الخاص :ballot_box_with_check: **');
 	  
 
    
@@ -2145,7 +2145,7 @@ https://hastebin.com/kuvoruzowe.cs
 					  client.on('message', message => {
 if (message.author.bot) return;
 if (message.content === prefix + "help-js-bc-3") {
-   message.channel.send('**لقد تم ارسال الكود في الخاص :ok_hand: **');
+   message.channel.send('**لقد تم ارسال الكود في الخاص :ballot_box_with_check: **');
 	  
 
    
@@ -2166,7 +2166,7 @@ https://hastebin.com/zujuvupali.php
 						client.on('message', message => {
 if (message.author.bot) return;
 if (message.content === prefix + "help-js-bc-4") {
-   message.channel.send('**لقد تم ارسال الكود في الخاص :ok_hand: **');
+   message.channel.send('**لقد تم ارسال الكود في الخاص :ballot_box_with_check: **');
 	  
 
    
