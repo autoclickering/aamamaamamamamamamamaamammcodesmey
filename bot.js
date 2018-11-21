@@ -1393,7 +1393,7 @@ if (message.content  === prefix + "help-js") {
 .setColor('RANDOM')
 .setTimestamp()
 
-.addField("⦁`All types of codes in SuperCodes Server 💬`⦁",' ‎ ')
+.addField("⦁`All types of codes in MalCodes Server 💬`⦁",' ‎ ')
 .addField("❧  **#help-js-source    ➺      ⦁ قسم السورس الأساسي** ⦁",' ‎ ')
 .addField("❧  **#help-js-admin     ➺      ⦁ قسم الأكواد الإدارية** ⦁",' ‎ ')
 .addField("❧  **#help-js-general   ➺      ⦁ قسم الأكواد العامة*** ⦁",' ‎ ')
