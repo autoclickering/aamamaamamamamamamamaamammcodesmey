@@ -6,7 +6,7 @@ const prefix = "#"
 const code = '#'
 
 client.on('ready', () => {
-	client.user.setGame(`Mal Codes.`,'https://www.twitch.tv/fofodiscord');
+	client.user.setGame(`Mal Codes.`,'https://www.twitch.tv/idk');
   console.log(`Logged in as [ ${client.user.tag}! ]`);
 
 });
@@ -15,7 +15,7 @@ client.on('ready', () => {
 
 
 client.on('message',async message => {
-    if(message.content.startsWith(prefix + "js")) {
+    if(message.content.startsWith(prefix + "Js")) {
       const ayy = client.emojis.find(emoji => emoji.name === "GooD");
 const nos = client.emojis.find(emoji => emoji.name === "BaD")
 const ter = client.emojis.get("501785113814761473");
