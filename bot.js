@@ -6,7 +6,7 @@ const prefix = "#"
 const code = '#'
 
 client.on('ready', () => {
-	client.user.setGame(`Mal Codes.`,'https://www.twitch.tv/idk');
+	client.user.setGame(`Mal Codes.#help`,'https://www.twitch.tv/idk');
   console.log(`Logged in as [ ${client.user.tag}! ]`);
 
 });
@@ -1419,7 +1419,7 @@ if (message.content  === prefix + "help-js-source") {
 .setColor('RANDOM')
 .setTimestamp()
 
-.addField("⦁`All types of codes in SuperCodes Server 💬`⦁",' ‎ ')
+.addField("⦁`All types of codes in MalCodes Server 💬`⦁",' ‎ ')
 .addField("**#help-js-source-1  ➺      ⦁ السورس الأساسي**⦁",' ‎ ')
 .addField("**#help-js-source-2  ➺      ⦁ السورس الأساسي مع الستريمنق ومعلومات البوت** ⦁",' ‎ ')
 .addField("**#help-js-source-3  ➺      ⦁ السورس الأساسي مع الستريمنق ومعلومات البوت** ⦁",' ‎ ')
@@ -1542,7 +1542,7 @@ if (message.content  === prefix + "help-js-admin") {
 .setColor('RANDOM')
 .setTimestamp()
 
-.addField("⦁`All types of codes in SuperCodes Server 💬`⦁",' ‎ ')
+.addField("⦁`All types of codes in MalCodes Server 💬`⦁",' ‎ ')
 .addField("**#help-js-admin-1  ➺      ⦁ كود الباند**⦁",' ‎ ')
 .addField("**#help-js-admin-2  ➺      ⦁ كود الكيك** ⦁",' ‎ ')
 .addField("**#help-js-admin-3  ➺      ⦁ كود مسح الشات مع عدد وشبيه بالبروبوت** ⦁",' ‎ ')
@@ -1735,7 +1735,7 @@ if (message.content  === prefix + "help-js-general") {
 .setColor('RANDOM')
 .setTimestamp()
 
-.addField("⦁`All types of codes in SuperCodes Server 💬`⦁",' ‎ ')
+.addField("⦁`All types of codes in Mal Codes Server 💬`⦁",' ‎ ')
 .addField("**#help-js-general-1  ➺      ⦁ كود البنق **⦁",' ‎ ')
 .addField("**#help-js-general-2  ➺      ⦁ كود القرعة ** ⦁",' ‎ ')
 .addField("**#help-js-general-3  ➺      ⦁ كود الافتار  ** ⦁",' ‎ ')	  
@@ -1918,7 +1918,7 @@ if (message.content  === prefix + "help-js-welcome") {
 .setColor('RANDOM')
 .setTimestamp()
 
-.addField("⦁`All types of codes in SuperCodes Server 💬`⦁",' ‎ ')
+.addField("⦁`All types of codes in MalCodes Server 💬`⦁",' ‎ ')
 .addField("**#help-js-welcome-1  ➺      ⦁ كود ترحيب مع ذكر رقم العضو **⦁",' ‎ ')
 .addField("**#help-js-welcome-2  ➺      ⦁ كود الترحيب مع صورة ** ⦁",' ‎ ')
 .addField("**#help-js-welcome-3  ➺      ⦁ كود مغادرة العضو ** ⦁",' ‎ ')
@@ -2010,7 +2010,7 @@ if (message.content  === prefix + "help-js-help") {
 .setColor('RANDOM')
 .setTimestamp()
 
-.addField("⦁`All types of codes in SuperCodes Server 💬`⦁",' ‎ ')
+.addField("⦁`All types of codes in Mal Codes Server 💬`⦁",' ‎ ')
 .addField("**#help-js-help-1  ➺      ⦁ كود هلب مع امبد يرسل بنفس الشات **⦁",' ‎ ')
 .addField("**#help-js-help-2  ➺      ⦁ كود هلب مزخرف بدون امبد ويرسل عالخاص ** ⦁",' ‎ ')
 	 
@@ -2078,7 +2078,7 @@ if (message.content  === prefix + "help-js-bc") {
 .setColor('RANDOM')
 .setTimestamp()
 
-.addField("⦁`All types of codes in SuperCodes Server 💬`⦁",' ‎ ')
+.addField("⦁`All types of codes in Mal Codes Server 💬`⦁",' ‎ ')
 .addField("**#help-js-bc-1  ➺      ⦁ برودكاست + للكل + مطور **⦁",' ‎ ')
 .addField("**#help-js-bc-2  ➺      ⦁ برودكاست + للكل + غير مطور ** ⦁",' ‎ ')
 .addField("**#help-js-bc-3  ➺      ⦁ برودكاست + للأونلاين + مع منشن + غير مطور **⦁",' ‎ ')
