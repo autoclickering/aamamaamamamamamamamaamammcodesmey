@@ -1367,7 +1367,7 @@ if (message.content  === prefix + "help1") {
 .setColor('RANDOM')
 .setTimestamp()
 
-.addField("⦁`All types of codes in SuperCodes Server 💬`⦁",' ‎ ')
+.addField("⦁`All types of codes in Mal Codes Server 💬`⦁",' ‎ ')
 .addField("❧  **#help-js  ➺      ⦁ قائمة أكواد الجافا سكربت**  ⦁",' ‎ ')
 .addField("❧  **#help-py  ➺      ⦁ قائمة أكواد البايثون**  ⦁",' ‎ ')
 .addField("❧  **#help-eris  ➺    ⦁ قائمة أكواد الإرس** ⦁",' ‎ ')
